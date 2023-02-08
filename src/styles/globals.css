@@ -4,11 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
+    scroll-behavior: smooth;
 background-color: #111827;
 font-family: 'Montserrat', sans-serif;
-scroll-behavior: smooth;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 #bg{
     margin-top: 4em;;
@@ -25,12 +28,16 @@ scroll-behavior: smooth;
 #border{
    border-radius: 5%;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
- 
     transition: 0.5s;
+    min-height: 288px;
+min-width: 384px;
 }
 #border:hover{
     transform: scale(1.01);
 }
-#about{
-    /* height: 100000px; */
+
+#portrow{
+min-height: 288px;
+min-width: 384px;
 }
+

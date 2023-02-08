@@ -1,6 +1,6 @@
 import Link from "next/link";
+import React, { useRef } from 'react';
 import { BsFillEnvelopeOpenFill } from "react-icons/bs";
-
 export default function Navbar() {
 	return (
     <div>
@@ -14,24 +14,24 @@ export default function Navbar() {
           <div class="text-gray-500  order-2 ">
             <ul class="flex font-semibold justify-between">
               <li class="md:px-4 md:py-2 text-indigo-500">
-                <Link href="#portfolioscroll"><p> About me</p></Link>
+                <Link href="#about" scroll={false}><p> About me</p></Link>
               </li>
               <li class="md:px-4 md:py-2 hover:text-indigo-400">
-                <a href="#">Search</a>
+                <Link href="#portfolioscroll" scroll={false}> <p>My Portfolio</p></Link>
               </li>
               <li class="md:px-4 md:py-2 hover:text-indigo-400">
-                <a href="#">Explore</a>
+                <Link href="#contact" scroll={false}><p>Contact me!</p></Link>
               </li>
             </ul>
           </div>
           <div class="order-3">
-			<Link href="/contact.js">
+			<Link href="mailto:brent.gotte@gmail.com">
             <button
               class="px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-2"
               id="btn"
             >
               <BsFillEnvelopeOpenFill />
-              <span>Contact Me!</span>
+              <span>Email me!</span>
             </button>
 			</Link>
           </div>
