@@ -8,6 +8,7 @@ export default function About() {
             <section class="bg-white dark:bg-gray-900" id="about">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
+        <Link href={"https://github.com/brentgotte"} target={'_blank'} > <img src="/footerimg.png" alt="Brent Gotte" className="rounded-full" height={150} width={150} /></Link>
             <img src="https://readme-typing-svg.demolab.com?font=mont+serrat&size=25&duration=3500&pause=1000&color=FFFFFF&background=FF111100&repeat=false&width=500&lines=Hello%2C+I+am+Brent+G%C3%B6tte" alt="Typing SVG" />
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Software engineer, 4 Time hackathon winner and a fast learning student.</p>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">I am a software engineer with a passion for learning new technologies. I am a fast learner and I am always looking for new challenges. I am a 4 time hackathon winner and I am always looking for new opportunities to learn and grow.</p>

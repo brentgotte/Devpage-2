@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 import { BsFillEnvelopeOpenFill } from "react-icons/bs";
 export default function Navbar() {
 	return (
@@ -13,14 +13,14 @@ export default function Navbar() {
           />
           <div class="text-gray-500  order-2 ">
             <ul class="flex font-semibold justify-between">
-              <li class="md:px-4 md:py-2 text-indigo-500">
-                <Link href="#about" scroll={false}><p> About me</p></Link>
+              <li class="md:px-4 md:py-2" >
+                <Link href="#about" scroll={false} className="focus:text-indigo-400" ><p> About me</p></Link>
               </li>
-              <li class="md:px-4 md:py-2 hover:text-indigo-400">
-                <Link href="#portfolioscroll" scroll={false}> <p>My Portfolio</p></Link>
+              <li class="md:px-4 md:py-2">
+                <Link href="#portfolioscroll" scroll={false}className="focus:text-indigo-400"> <p>My Portfolio</p></Link>
               </li>
-              <li class="md:px-4 md:py-2 hover:text-indigo-400">
-                <Link href="#contact" scroll={false}><p>Contact me!</p></Link>
+              <li class="md:px-4 md:py-2 visited:text-indigo-400">
+                <Link href="#contact" scroll={false} className="focus:text-indigo-400"><p>Contact me!</p></Link>
               </li>
             </ul>
           </div>
@@ -37,6 +37,8 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
+
+
     </div>
   );
 }

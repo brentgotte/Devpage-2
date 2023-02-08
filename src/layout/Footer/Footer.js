@@ -7,7 +7,6 @@ export default function Footer()   {
 
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <Link href={"https://github.com/brentgotte"} target={'_blank'} > <img src="/footerimg.png" alt="Brent Gotte" className="rounded-full" height={80} width={80} /> </Link>
     <h1 className="text-white justify-center items-center">Brent Gotte</h1> 
     <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">©  <a>Brent Gotte</a>. All Rights Reserved. 
     </span> <br/> <br/> 
