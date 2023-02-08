@@ -8,7 +8,7 @@ export default function Contact(){
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got Feedback on my portfoliosite or just wanna have a conversation? Feel free to Contact me!</p>
-        <div class="grid grid-cols-3 mb-4 ml-12">
+        <div class="flex w-full justify-around mb-4">
         <Link href="https://github.com/brentgotte" target={'_blank'}> <img src='/github2.png' height={60} width={60}/></Link>
         <Link href="https://www.linkedin.com/in/brent-g%C3%B6tte-827717252/"target={'_blank'} > <img src='/linkedin2.png' height={60} width={60}/></Link>
         <Link href="mailto:brent.gotte@gmail.com"> <img src='/mail.png'height={60} width={60}/> </Link>
