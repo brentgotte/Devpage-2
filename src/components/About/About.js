@@ -23,6 +23,7 @@ export default function About() {
         </div> 
     </div>
 </section>
+<div className="dontlook ">
 
 <br/>
 <br/>
@@ -37,9 +38,11 @@ export default function About() {
 <br/>
 <br/>
 <br/>
+<br id="portfolioscroll"/>
 <br/>
 <br/>
 <br/>
+</div>
 
 
 

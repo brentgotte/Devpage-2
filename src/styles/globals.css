@@ -44,3 +44,8 @@ min-width: 384px;
 #header{
     background-color: aliceblue;
 }
+
+#flex{
+    display: flex;
+    justify-content: center;
+}

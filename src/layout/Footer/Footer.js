@@ -23,6 +23,8 @@ export default function Footer()   {
                 <Link href="#contact" class="hover:underline" scroll={false}>Contact</Link>
             </li>
         </ul>
+
+        <small  className='text-transparent'>i dont look for perfection, it looks for me. </small>
 </footer>
         </div>
     )
