@@ -49,3 +49,7 @@ min-width: 384px;
     display: flex;
     justify-content: center;
 }
+
+.space-between-elements{
+margin-bottom: 30em;
+}

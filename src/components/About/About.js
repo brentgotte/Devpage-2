@@ -23,29 +23,7 @@ export default function About() {
         </div> 
     </div>
 </section>
-<div className="dontlook ">
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br id="portfolioscroll"/>
-<br/>
-<br/>
-<br/>
-</div>
-
-
-
+<div className="space-between-elements" />
         </div>
     )
 }
