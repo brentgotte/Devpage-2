@@ -17,7 +17,7 @@ export default function Portfolio() {
                             One week project for school with 4 friends. Goal: Learning NextJS
                         </p>
                         <Link href="https://github.com/I-am-Lemuel/valley-of-despair" target={"_blank"}>
-                            <button class="mt-4 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-4">Check the repo here!</button>
+                        <button class="mt-4 text-black bg-primary hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-">Check the repo here!</button>
                         </Link>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export default function Portfolio() {
                             Made a website for Globadyme with Next.js and Bootstrap.
                         </p>
                         <Link href="https://github.com/I-am-Lemuel/DeepDiveMKB2" target={"_blank"}>
-                            <button class="mt-4 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-">Check the repo here!</button>
+                        <button class="mt-4 text-black bg-primary hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-">Check the repo here!</button>
                         </Link>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export default function Portfolio() {
                         <p class="text-white text-base">
                             I made a transaction Tracker with Javascript. Goal: Learn to work with Javascript classes</p>
                         <Link href="https://github.com/brentgotte/Transaction-Tracker" target={"_blank"}>
-                            <button class="mt-4 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-">Check the repo here!</button>
+                            <button class="mt-4 text-black bg-primary hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-">Check the repo here!</button>
                         </Link>
                     </div>
                 </div>

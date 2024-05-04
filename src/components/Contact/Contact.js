@@ -4,7 +4,7 @@ export default function Contact(){
 
     return(
         <div>
-            <section class="bg-white dark:bg-gray-900" id="contact">
+            <section  id="contact">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got Feedback on my portfoliosite or just wanna have a conversation? Feel free to Contact me!</p>
@@ -28,7 +28,7 @@ export default function Contact(){
               <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
               <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
           </div>
-          <button type="submit" className="px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-">Submit</button>
+          <button type="submit" className="px-4 py-2 bg-primary text-black rounded-xl flex items-center gap-">Submit</button>
       </form>
   </div>
 </section>
