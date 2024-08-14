@@ -21,7 +21,7 @@ export default function Navbar() {
                 <Link href="#portfolioscroll" scroll={false}className="focus:text-primary"> <p>My Portfolio</p></Link>
               </li>
               <li class="md:px-4 md:py-2 visited:text-indigo-400">
-                <Link href="#contact" scroll={false} className="focus:text-primary"><p>Contact me!</p></Link>
+                <Link href="#resume" scroll={false} className="focus:text-primary"><p>Resume</p></Link>
               </li>
             </ul>
           </div>

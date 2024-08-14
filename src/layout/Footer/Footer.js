@@ -7,7 +7,6 @@ export default function Footer()   {
 
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <h1 className="text-white justify-center items-center">Brent Gotte</h1> 
     <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">©  <a>Brent Gotte</a>. All Rights Reserved. 
     </span> <br/> <br/> 
    

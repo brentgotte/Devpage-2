@@ -4,6 +4,7 @@ import Navbar from "./Navbar/Navbar";
 import About from "src/components/About/About";
 import Portfolio from "src/components/Portfolio/Portfolio";
 import Contact from "src/components/Contact/Contact";
+import Resume from "@/components/Resume/Resume";
 
 export const Layout = ({ children }) => {
   return (
@@ -18,10 +19,14 @@ export const Layout = ({ children }) => {
         <Navbar />
         <div>
           <About/>
-          <Portfolio/>
+          <Portfolio/> 
           <div >{children}</div>
         </div>
-        <Contact/>
+        <div className="mt-40">
+        <Resume />
+
+        </div>
+        {/* <Contact/> */}
         <Footer />
       </div>
     </>

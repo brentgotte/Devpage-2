@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Portfolio() {
     return (
-        <div id="portfolioscroll">
+        <div  >
 
-            <h1 className="text-white text-5xl text-center" >My Portfolio</h1> 
-            <h1 className="text-white text-2xl text-center ">Here are some of my projects </h1> 
-            <h1 className="text-white text-2xl text-center ">↓</h1> <br></br> 
+            <h1 className="text-white text-5xl text-center" id="portfolioscroll" >My Portfolio</h1> 
+            <h1 className="text-white text-2xl text-center mb-10">Here are some of my projects </h1> 
+            
             <div class="grid grid-cols-3 gap-14 " id="flex" >
                 <div class="max-w-sm rounded overflow-hidden shadow-lg">
                     <img class="w-full" src="/index.png" alt="mockup" id="border" />
