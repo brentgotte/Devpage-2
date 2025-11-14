@@ -5,7 +5,7 @@ export default function ResumeCard ( { name, date, location, description } )
  {
     return(
         <div className="max-w-sm   shadow-lg mr-10">
-                    <img className=" bg-white w-full" src={ `/${name}.png `} id="border"   />
+                    <img className=" bg-white w-full max-h" src={ `/${name}.png `} id="border"   />
                     <div className="mt-4">
                         <div className=" flex flex-row  ">
                         <p className="font-bold text-xl mb-2 text-white">{name} </p>
